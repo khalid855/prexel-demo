@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { Cairo, Geist_Mono } from "next/font/google";
+import { Alexandria, IBM_Plex_Sans_Arabic, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const cairo = Cairo({
-  variable: "--font-geist-sans",
+const alexandria = Alexandria({
+  variable: "--font-display",
   subsets: ["arabic", "latin"],
   display: "swap",
 });
+const plex = IBM_Plex_Sans_Arabic({variable:"--font-body",subsets:["arabic","latin"],weight:["300","400","500","600","700"],display:"swap"});
 
 const mono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="ar" className={`${cairo.variable} ${mono.variable} antialiased`}>
+    <html lang="ar" dir="rtl" className={`${alexandria.variable} ${plex.variable} ${mono.variable} antialiased`}>
       <body>{children}</body>
     </html>
   );

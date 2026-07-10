@@ -1,16 +1,7 @@
 import { SiteShell } from "@/components/layout/site-shell";
-import { PackagesSection } from "@/components/home/packages-section";
-import { FaqSection } from "@/components/home/faq-section";
-
-export const metadata = { title: "الباقات" };
-
-export default function PackagesPage() {
-  return (
-    <SiteShell>
-      <main className="pt-24">
-        <PackagesSection />
-        <FaqSection />
-      </main>
-    </SiteShell>
-  );
-}
+import { Breadcrumbs, LargeCTA, PageHero } from "@/components/studio/sections";
+import { packages } from "@/data/packages";
+import Link from "next/link";
+const details=[{fit:"لبداية واضحة وسريعة",time:"3–5 أيام",rev:"تعديل واحد"},{fit:"للمجتمعات النشطة",time:"5–8 أيام",rev:"3 تعديلات"},{fit:"لإطلاق متكامل",time:"10–14 يوم",rev:"5 تعديلات"}];
+export const metadata={title:"الباقات"};
+export default function PackagesPage(){return <SiteShell><main><PageHero eyebrow="PACKAGES" title="نطاق واضح. بداية أسهل." desc="اختر نقطة البداية الأقرب لطموحك، ويمكننا دائمًا تشكيل نطاق خاص."><Breadcrumbs items={[{label:"الرئيسية",href:"/"},{label:"الباقات"}]}/></PageHero><section className="packages-flow container-wide">{packages.map((p,i)=><article key={p.name} className={p.featured?"featured":""}><div className="package-title"><span>0{i+1}</span><p>{p.tag}</p><h2>{p.name}</h2></div><div className="package-price"><small>تبدأ من</small><strong>{p.price}</strong><p>{details[i].fit}</p></div><ul>{p.features.map(x=><li key={x}>{x}</li>)}</ul><div className="package-end"><p>{details[i].time}<small>مدة التنفيذ</small></p><p>{details[i].rev}<small>المراجعات</small></p><Link href={`/contact?package=${i+1}`}>ابدأ بهذه الباقة</Link></div></article>)}<article className="custom-package"><p className="kicker">04 / BESPOKE</p><h2>الباقة المخصصة</h2><p>للمشاريع التي تجمع أكثر من تخصص أو تحتاج مسار إنتاج خاصًا.</p><Link href="/contact">ابنِ باقتك معنا</Link></article></section><section className="comparison container-wide"><p className="kicker">COMPARE</p><h2>مقارنة سريعة</h2><div className="table-wrap"><table><thead><tr><th>الميزة</th>{packages.map(p=><th key={p.name}>{p.name.replace("الباقة ","")}</th>)}</tr></thead><tbody>{["هوية أساسية","إعداد Discord","Motion","ملفات مصدرية","دعم أولوية"].map((x,i)=><tr key={x}><td>{x}</td><td>{i<2?"متضمن":"—"}</td><td>{i<4?"متضمن":"—"}</td><td>متضمن</td></tr>)}</tbody></table></div></section><LargeCTA/></main></SiteShell>}

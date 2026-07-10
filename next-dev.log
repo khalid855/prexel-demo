@@ -55,3 +55,42 @@
  GET / 404 in 4570ms
  GET / 200 in 242ms
  GET / 200 in 98ms
+ ✓ Compiled in 1423ms (5226 modules)
+ ✓ Compiled in 3.6s (3348 modules)
+ ✓ Compiled in 1033ms (3362 modules)
+ ✓ Compiled in 2.5s (3377 modules)
+ ✓ Compiled in 1426ms (3359 modules)
+ ✓ Compiled in 2.3s (2530 modules)
+ ○ Compiling /_not-found ...
+ GET / 500 in 11691ms
+ GET /services 500 in 1315ms
+ GET /services/discord-design 500 in 655ms
+ GET /services/discord-bots 500 in 17ms
+ GET /services/stream-packs 500 in 24ms
+ GET /services/branding 500 in 24ms
+ GET /services/3d-design 500 in 19ms
+ GET /services/fivem 500 in 17ms
+ GET /services/web-development 500 in 21ms
+ GET /services/custom-projects 500 in 24ms
+ ✓ Compiled /portfolio in 1873ms (1993 modules)
+ GET /portfolio 500 in 2564ms
+ ○ Compiling /portfolio/[slug] ...
+ ✓ Compiled /portfolio/[slug] in 661ms (1995 modules)
+ GET /portfolio/99school 500 in 1052ms
+ GET /portfolio/a27-stream-pack 500 in 271ms
+ GET /portfolio/z90-3d 500 in 269ms
+ GET /portfolio/abu-qht 500 in 259ms
+ GET /portfolio/prexel-discord 500 in 257ms
+ GET /portfolio/fivem-gang 500 in 256ms
+ GET /portfolio/dark-motion 500 in 300ms
+ ○ Compiling /packages ...
+ ✓ Compiled /packages in 528ms (1995 modules)
+ GET /packages 500 in 866ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 737ms (1997 modules)
+ GET /about 500 in 1086ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 656ms (1920 modules)
+ GET /contact 500 in 982ms
+ GET / 500 in 276ms
+[?25h

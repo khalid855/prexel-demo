@@ -1,0 +1,162 @@
+ ⨯ ./components/portfolio/portfolio-section.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\khali\Desktop\portofilo\Prexel\components\portfolio\portfolio-section.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/portfolio/portfolio-section.tsx
+ ⨯ ./components/portfolio/portfolio-section.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\khali\Desktop\portofilo\Prexel\components\portfolio\portfolio-section.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/portfolio/portfolio-section.tsx
+ ⨯ ./components/portfolio/portfolio-section.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\khali\Desktop\portofilo\Prexel\components\portfolio\portfolio-section.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/portfolio/portfolio-section.tsx
+ ⨯ ./components/portfolio/portfolio-section.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\khali\Desktop\portofilo\Prexel\components\portfolio\portfolio-section.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/portfolio/portfolio-section.tsx
+ ⨯ ./components/portfolio/portfolio-section.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\khali\Desktop\portofilo\Prexel\components\portfolio\portfolio-section.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/portfolio/portfolio-section.tsx
+ ⨯ ./components/portfolio/portfolio-section.tsx
+Error: 
+
+Caused by:
+    0: Failed to read source code from C:\Users\khali\Desktop\portofilo\Prexel\components\portfolio\portfolio-section.tsx
+    1: The system cannot find the file specified. (os error 2)
+
+Import trace for requested module:
+./components/portfolio/portfolio-section.tsx
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\page.js:423:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\page.js:426:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/99school'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/a27-stream-pack'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/z90-3d'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/abu-qht'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/prexel-discord'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/fivem-gang'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\portfolio\[slug]\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/portfolio/dark-motion'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\packages\page.js:390:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\packages\page.js:393:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/packages'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\about\page.js:379:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\about\page.js:382:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/about'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\contact\page.js:401:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\contact\page.js:404:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/contact'
+}
+ ⨯ Error: ENOENT: no such file or directory, open 'C:\Users\khali\Desktop\portofilo\Prexel\.next\server\vendor-chunks\motion-dom.js'
+    at <unknown> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\page.js:412:47)
+    at Object.<anonymous> (C:\Users\khali\Desktop\portofilo\Prexel\.next\server\app\page.js:415:3) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'C:\\Users\\khali\\Desktop\\portofilo\\Prexel\\.next\\server\\vendor-chunks\\motion-dom.js',
+  page: '/'
+}
