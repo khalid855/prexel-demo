@@ -1,0 +1,11 @@
+export const projectCategories = ["All", "Discord", "Stream Packs", "Logos", "3D", "FiveM", "Branding", "Web"] as const;
+
+export const projects = [
+  { id: "99school", title: "99School Gaming Identity", category: "Branding", client: "99School", year: "2026", layout: "large", type: "هوية ألعاب", overview: "هوية كاملة لمجتمع تعليمي/قيمنق مع شعار، بنرات، ونظام ألوان معدني.", deliverables: ["Logo suite", "Discord banners", "Brand kit"], tone: "from-red-950 via-zinc-950 to-slate-800" },
+  { id: "a27", title: "A27 Stream Package", category: "Stream Packs", client: "A27", year: "2026", layout: "video", type: "باقة بث", overview: "حزمة ستريم سينمائية مع شاشات انتقال وتنبيهات جاهزة.", deliverables: ["Screens", "Alerts", "Overlay"], tone: "from-zinc-900 via-red-950 to-black" },
+  { id: "z90", title: "Z90 3D Intro", category: "3D", client: "Z90", year: "2026", layout: "tall", type: "مقدمة 3D", overview: "مقدمة قصيرة بشعار معدني، إضاءة درامية وحركة كاميرا.", deliverables: ["3D logo", "Intro render", "Loop"], tone: "from-slate-900 via-zinc-950 to-purple-950" },
+  { id: "abu-qht", title: "Abu QHT Stream Pack", category: "Stream Packs", client: "Abu QHT", year: "2026", layout: "wide", type: "Stream", overview: "تصميم ستريم احترافي بهوية حمراء داكنة قابلة للتطبيق على OBS.", deliverables: ["OBS screens", "Chat frame", "Panels"], tone: "from-black via-red-900 to-zinc-900" },
+  { id: "community", title: "PREXEL Discord Community", category: "Discord", client: "PREXEL", year: "2026", layout: "wide", type: "Discord", overview: "تجربة سيرفر كاملة للترحيب، القوانين، الدعم، الطلبات والرتب.", deliverables: ["Server map", "Banners", "Roles"], tone: "from-indigo-950 via-zinc-950 to-black" },
+  { id: "gang", title: "FiveM Gang Branding", category: "FiveM", client: "Rival RP", year: "2026", layout: "tall", type: "FiveM", overview: "هوية عصابة، شعارات فرعية وبانرات لسيرفر Roleplay.", deliverables: ["Gang logo", "Badges", "Loading art"], tone: "from-orange-950 via-zinc-950 to-black" },
+  { id: "motion", title: "Dark Motion Logo", category: "Logos", client: "Motion", year: "2026", layout: "large", type: "Logo", overview: "شعار داكن قابل للتحريك ومناسب لقنوات المحتوى.", deliverables: ["Logo", "Animated mark", "Export pack"], tone: "from-zinc-800 via-black to-red-950" },
+] as const;

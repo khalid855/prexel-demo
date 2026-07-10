@@ -1,0 +1,57 @@
+
+> prexel-site@0.1.0 dev
+> next dev --port 3000
+
+   ▲ Next.js 15.5.20
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.50.112:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 7s (5211 modules)
+ GET / 200 in 9518ms
+ ○ Compiling /services ...
+ ✓ Compiled /services in 3.3s (5216 modules)
+ GET /services 200 in 4796ms
+ ○ Compiling /portfolio ...
+ ✓ Compiled /portfolio in 959ms (5207 modules)
+ GET /portfolio 200 in 1562ms
+ ○ Compiling /packages ...
+ ✓ Compiled /packages in 968ms (5212 modules)
+ GET /packages 200 in 1614ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 867ms (5217 modules)
+ GET /contact 200 in 1483ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 2s (5228 modules)
+ GET /login 200 in 2805ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 1146ms (5239 modules)
+ GET /dashboard 200 in 1708ms
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 1048ms (5248 modules)
+ GET /admin 200 in 1383ms
+ GET / 200 in 511ms
+ GET /services 200 in 122ms
+ GET /portfolio 200 in 110ms
+ GET /packages 200 in 147ms
+ GET /contact 200 in 106ms
+ GET /login 200 in 59ms
+ GET /dashboard 200 in 76ms
+ GET /admin 200 in 86ms
+ GET / 200 in 343ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1450ms (2747 modules)
+ GET /favicon.ico 200 in 1686ms
+ GET / 200 in 310ms
+ GET /favicon.ico 200 in 34ms
+ GET / 200 in 130ms
+ GET /favicon.ico 200 in 51ms
+ GET / 200 in 78ms
+ GET / 200 in 79ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4s (5231 modules)
+ GET / 404 in 4570ms
+ GET / 200 in 242ms
+ GET / 200 in 98ms
